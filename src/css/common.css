@@ -19,17 +19,15 @@ img {
 /* -------------------------------------------------------------- 01-color-switcher ---------- */
 
 .wrapper {
-  width: 190px;
-  padding: 40px;
-  border: 1px solid;
-  border-color: black;
+  width: 300px;
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 button[data-start] {
-  width: 50px;
-  height: 25px;
+  width: 70px;
+  height: 35px;
   background-color: rgb(211, 243, 213);
   border-color: transparent;
   border-radius: 5px;
@@ -38,8 +36,8 @@ button[data-start] {
 }
 
 button[data-stop] {
-  width: 50px;
-  height: 25px;
+  width: 70px;
+  height: 35px;
   background-color: rgb(255, 4, 66);
   border-color: transparent;
   border-radius: 5px;
@@ -63,4 +61,9 @@ button[data-stop] {
   border-color: black;
   padding: 20px;
   background-color: #fafafa;
+}
+
+.input__timer {
+  height: 34px;
+  padding-left: 50px;
 }
